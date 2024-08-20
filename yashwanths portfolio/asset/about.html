@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="desktop-nav">
+    <div class="logo">V yashwanth Reddy</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">V yashwanth Reddy</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+        <li><a href="certifications.html" onclick="toggleMenu()">Certifications</a></li>
+        <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- About Section -->
+  <section id="about">
+    <h3 class="section__text__p1">Get To Know More</h3>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="profile.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./experience.png" alt="Experience icon" class="icon" />
+            <h3>SKILLS</h3>
+            <p><b>Networking</b><br><b>SQL</b><br><b>Front End:</b> Python, C<br><b>Back End:</b> HTML, CSS<br><b>Operating System:</b> Windows, Linux</p>
+          </div>
+          <div class="details-container">
+            <img src="./education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p><b>School:</b> St Andrews High School (CBSE)<br><b>Intermediate:</b> Narayana Jr College<br><b>B Tech:</b> Hyderabad Institute Of Technology and Management</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am a dedicated and enthusiastic cybersecurity student in my fourth year at HITAM. With a keen interest in safeguarding digital environments, I have immersed myself in various aspects of cybersecurity, from network security and ethical hacking to threat analysis and data protection. My academic journey is marked by hands-on experience through practical labs and projects, which have developed a deep understanding of current cybersecurity threats and mitigation strategies. Driven by a passion for staying ahead of evolving cyber threats, I am committed to pursuing a career in cybersecurity with a focus on innovative solutions and proactive defense measures. My problem-solving skills, combined with a strong foundation in cybersecurity principles, make me a valuable asset in any security-focused role.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
